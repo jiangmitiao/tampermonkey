@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         hostloc_shield
 // @namespace    https://www.hostloc.com/
-// @version      0.2
+// @version      0.3
 // @description  屏蔽你想屏蔽的人
 // @author       jiangmitiao
 // @match        https://www.hostloc.com/*
@@ -54,8 +54,7 @@
             // console.log(item.getElementsByClassName("xw1")[0].innerHTML)
             getList().forEach(person => {
                 if (person == item.getElementsByClassName("xw1")[0].innerHTML) {
-                    //console.log(item)
-                    console.log("移除", item)
+                    //console.log("移除", item)
                     item.parentNode.removeChild(item);
                 }
             })
