@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  屏蔽你想屏蔽的人
 // @author       jiangmitiao
-// @match        https://www.hostloc.com/thread-*
+// @match        https://www.hostloc.com/*
 // @grant        none
 // @require      https://code.jquery.com/jquery-2.1.4.min.js
 // ==/UserScript==
